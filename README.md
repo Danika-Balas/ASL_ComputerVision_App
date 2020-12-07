@@ -14,7 +14,7 @@ The app is intended as a proof-of-concept for using computer vision to interpret
 ## Table of Contents
 * [Overview](#Overview)
 * [Table of Contents](#Table-of-Contents)
-* [Using this Repository] (#Using-this-Repository)
+* [Using this Repository](#Using-this-Repository)
 * [Data](#Data)
 
 ## Using this Repository
