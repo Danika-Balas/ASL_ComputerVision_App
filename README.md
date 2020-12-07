@@ -6,15 +6,15 @@ American Sign Language (ASL) is used by an estimated [250,000-500,000 people](ht
 The app is intended as a proof-of-concept for using computer vision to interpret sign language.
 
 <p float="left">
-  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/A_test.png" width="288" />
-  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/B_test_left.png" width="288" /> 
-  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/C_test.png" width="288" />
+  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/A_test.png" width="256" />
+  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/B_test_left.png" width="256" /> 
+  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/C_test.png" width="256" />
 </p>
 
 ## Table of Contents
 * [Overview](#Overview)
 * [Table of Contents](#Table-of-Contents)
-* [Using this Repository](#Using-this-Repository)
+* [Accessing the App](#Accessing-the-App)
 * [Data](#Data)
 * [Training the Model](#Training-the-Model)
 * [Model Performance](#Model-Performance)
@@ -46,7 +46,7 @@ I used data augmentation to expand the training dataset. I added flipped images 
 I trained the model for 200 iterations.
 
 <p float="center">
-  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/model_training.png" width="864" />
+  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/model_training.png" width="768" />
 </p>
 
 ## Model Performance
@@ -57,7 +57,7 @@ The testing data was pulled from the same pool as the training data (without any
 Accuracy was much less consistent for novel images. The model likely overfit to the training data. In general, the model performed better on images of right hand signs and signs in dimmer lighting.
 
 <p float="center">
-  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/model_evaluation.png" width="864" />
+  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/model_evaluation.png" width="768" />
 </p>
 
 ## Adding Model to an iOS App
@@ -68,9 +68,9 @@ I used Xcode to add the custom ASL alphabet model to the app and make some minor
 Finally, I compiled the project. With the newly created app, I can make inferences with novel images at using any iOS device as an edge device.
 
 <p float="left">
-  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/X_test.png" width="288" />
-  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/Y_test.png" width="288" /> 
-  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/Z_test.png" width="288" />
+  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/X_test.png" width="256" />
+  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/Y_test.png" width="256" /> 
+  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/Z_test.png" width="256" />
 </p>
 
 ## Future Directions
