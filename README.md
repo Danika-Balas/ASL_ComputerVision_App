@@ -2,7 +2,8 @@
 An iOS app built using the CoreML framework and a CNN model developed with CreateML. The app classifies images of letters in the American Sign Language (ASL) alphabet.
 
 ## Overview
-American Sign Language (ASL) is used by an estimated [250,000-500,000 people](https://www.gallaudet.edu/documents/Research-Support-and-International-Affairs/ASL_Users.pdf) in the US. I used Apple's [CreateML](https://developer.apple.com/documentation/createml) and data from Kaggle(https://www.kaggle.com/grassknoted/asl-alphabet) to train a Convolutional Neural Network
+American Sign Language (ASL) is used by an estimated [250,000-500,000 people](https://www.gallaudet.edu/documents/Research-Support-and-International-Affairs/ASL_Users.pdf) in the US. I used Apple's [CreateML](https://developer.apple.com/documentation/createml) and data from Kaggle(https://www.kaggle.com/grassknoted/asl-alphabet) to train a Convolutional Neural Network.
+
 The app is intended as a proof-of-concept for using computer vision to interpret sign language.
 
 <p float="left">
