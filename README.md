@@ -35,7 +35,12 @@ In order to train the image classification model, I combined two datasets from K
 
 I randomly sampled half the images from [this dataset](https://www.kaggle.com/grassknoted/asl-alphabet) in order to reduce the time and computational resources needed to train the model. I then supplemented them with images from [this small dataset](https://www.kaggle.com/danrasband/asl-alphabet-test) in order to increase the variety of backgrounds within the training set images.
 
-The training set consists of 1,515 images for each class. Each image is 200x200 pixels. There are 28 classes, one for each of the 26 letters in the ASL alphabet plus *SPACE* and *NOTHING*. In ASL, most of the letters use static signs, but the letters J and Z involve motions. For the purposes of this model, J and Z are represented by images of hands in the starting position of these motions. 
+The training set consists of 1,515 images for each class. Each image is 200x200 pixels. There are 28 classes, one for each of the 26 letters in the ASL alphabet plus *SPACE* and *NOTHING*. In ASL, most of the letters use static signs, but the letters J and Z involve motions. For the purposes of this model, J and Z are represented by images of hands in the starting position of these motions.
+
+<p float="left">
+  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/ASL-Alphabet-ASDC.jpg" width="768" />
+</p>
+
 
 ## Training the Model
 I used Apple's AutoML tool, [Create ML](https://developer.apple.com/documentation/createml/creating_an_image_classifier_model), to develop the ASL alphabet image classifier.
@@ -47,7 +52,7 @@ I used data augmentation to expand the training dataset. I added flipped images 
 I trained the model for 200 iterations.
 
 <p float="center">
-  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/model_training.png" width="768" />
+  <img src="https://github.com/Danika-Balas/ASL_ComputerVision_App/blob/main/images/model_training.png" width="384" />
 </p>
 
 ## Model Performance
